@@ -1,0 +1,23 @@
+.gallery {
+    background-color: rgb(143, 142, 142);
+    padding: 3rem;
+    text-align: center;
+}
+.gallery-section { 
+    margin: 6em 0em;
+}
+.gallery-container {
+    display: grid;
+    place-items: center;
+}
+.gallery-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.gallery-img img {
+    max-height: 10em;
+    margin: 0rem 2rem 2rem 2rem;
+}

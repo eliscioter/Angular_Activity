@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Roboto');
+
+nav { 
+    display: flex;
+    justify-content: space-between;
+}
+nav ul { 
+    display: flex;
+    list-style: none;
+}
+
+nav .nav-brand {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.5rem;
+}
+nav .nav-link {
+    margin: auto 0
+}
+nav .nav-link:nth-child(2) {
+    padding: 0px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+}
+nav  a:hover, a:active, a:visited {
+    color: #fff;
+}

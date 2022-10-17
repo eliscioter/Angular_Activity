@@ -1,0 +1,25 @@
+.container {
+    height: 60%;
+    display: grid;
+    place-items: center;
+    padding: 5em;
+}
+.form {
+    display: grid;
+    border: 1px solid grey;
+    padding: 2em;
+}
+input[type="text"],
+input[type=password] {
+    margin: 10px 0px;
+    padding: 5px;
+    font-size: 1rem;
+}
+input[type=submit] {
+    background-color: #00224a;
+    color: #fff;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
